@@ -1,1 +1,0 @@
-savedcmd_spot_high_res_timer.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.17.0-8-generic/scripts/module.lds -o spot_high_res_timer.ko spot_high_res_timer.o spot_high_res_timer.mod.o .module-common.o
